@@ -38,7 +38,7 @@ public class RealmTest {
             System.out.println(subject.isPermitted("user:delete:2"));
         } catch (AuthenticationException e) {
             //5、身份验证失败
-            e.printStackTrace();
+            e.printStackTrace(); 
         }
         System.out.println(subject.isAuthenticated());
         //6、退出
