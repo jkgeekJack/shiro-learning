@@ -28,7 +28,7 @@ public class HelloShiro {
             //4、登录，即身份验证
             subject.login(token);
         } catch (AuthenticationException e) {
-            //5、身份验证失败
+            //5、身份验证失败 
         }
 
         System.out.println(subject.isAuthenticated()); //显示用户是否登录
