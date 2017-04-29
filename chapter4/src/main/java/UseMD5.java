@@ -35,7 +35,7 @@ public class UseMD5 {
             //验证是否有role1角色
             System.out.println(subject.hasRole("role1"));
         } catch (AuthenticationException e) {
-            //5、身份验证失败
+            //5、身份验证失败 
             e.printStackTrace();
         }
         //6、退出
